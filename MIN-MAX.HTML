@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+    
+    
+          //QUESTION 2: FIND minimum maximum IN GIVEN UNSORTED ARRAY.
+
+    var arr=[10,2,3,7,5,6,70,40];
+    var minimum = arr[0];
+    var maximum = arr[0];
+        for(let i=0;i<arr.length;i++)    // using for loop statement
+              {
+               if(arr[i]<minimum)        // if array of elemet is less than minimum element
+                  {
+                     minimum = arr[i];      // minimumimum number to be taken
+                  }
+                    else if(arr[i]>maximum)       // else if array of elemet is less than maximum element
+                        {
+                              maximum = arr[i];       // minimumimum number to be taken
+                        }
+                     
+                    }
+                   console.log("minimum array element is ",minimum); 
+                  console.log("maximum array element is ",maximum);
+                </script>
+</body>
+</html> 
